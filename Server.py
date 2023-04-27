@@ -2,6 +2,11 @@ from fastapi import FastAPI, status, HTTPException
 import uvicorn, pickle, mariadb, sys
 from pydantic import BaseModel
 
+'''
+To publish. you should type following command:
+    pyinstaller --onefile Server.py
+'''
+
 app = FastAPI()
 
 class User(BaseModel):
