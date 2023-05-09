@@ -3,7 +3,7 @@ import uvicorn, pickle, sys, json
 from pydantic import BaseModel
 
 '''
-To publish. you should type following command:
+To publish. type following command:
     pyinstaller --onefile Server.py
 '''
 
